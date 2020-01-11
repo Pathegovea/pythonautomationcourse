@@ -87,6 +87,8 @@ line console 0
 line vty 0 4
  login local
  logging synchronous
+ transport input ssh
+ transport output ssh
 interface vlan1
  ip address 192.168.100.3 255.255.255.0
  no shutdown
